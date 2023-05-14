@@ -11,7 +11,7 @@ Duration | Activity | Notes
 15 mins | A look at Copilot X | Finish off the workshop by demonstrating [Copilot X](https://gh.io/copilotx) - GitHub's vision for the future of Copilot. This is a great way to end the workshop and leave attendees excited about the future of Copilot.
 
 #### Post event survey
-You should also provide a short survey at the end of the workshop to help assess the impact of the workshop and allow you to iterate and learn for future workshop deliveries. If you wish, you could copy and edit this [sample survey](https://forms.gle/gq95Y18S4K7M9Jst8) using Google Forms.
+You should also provide a short survey at the end of the workshop to help assess the impact of the workshop and allow you to iterate and learn for future workshop deliveries. If you wish, you could recreate this [sample survey](https://forms.gle/gq95Y18S4K7M9Jst8) using Google Forms.
 
 #### Need help running a workshop?
 
