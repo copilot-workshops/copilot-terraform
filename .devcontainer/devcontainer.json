@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+				"vsls-contrib.codetour",
+				"GitHub.copilot",
+        "tfsec.tfsec"
+      ]
+    }
+  },
+  "features": {
+	"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
+	"ghcr.io/dhoeric/features/tfsec:1": {}
+  }
+}

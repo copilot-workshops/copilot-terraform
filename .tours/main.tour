@@ -1,0 +1,58 @@
+{
+    "$schema": "https://aka.ms/codetour-schema",
+    "title": "Terraform Copilot tour",
+    "steps": [
+      {
+        "title": "Introduction",
+        "description": "Hi there! This is a guided tour to help you learn GitHub Copilot. We will modify a small Terraform script to deploy Azure VM.\n\nPress `Next` to get started 👇"
+      },
+      {
+        "file": "variables.tf",
+        "title": "Open `variables.tf`",
+        "line": 1,
+        "description": "This file defines the inputs required to deploy an Azure VM. We won't be editing this file. Simply by having this file open in a tab, it will provide additional context to GitHub Copilot to enhance the suggestions Copilot will present. \n\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "title": "",
+        "line": 1,
+        "description": "Here is the Terraform script we are going to edit. We've already defined some resources like a resources group and a VNET. We are going to add Azure VM resource definition.\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 71,
+        "description": "Now, let's add a Security Group resource. Click the `Insert code` link to add the following comment to your Terraform file \n\n```python\n// Security Group\n```\n\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 71,
+        "description": "Place the cursor at the end of the '// Security Group' comment and press **ENTER** to have Copilot suggest the code block to use. Once it appears, press **TAB** then **ENTER** to accept the suggestion.\n\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 100,
+        "description": "Now, let's associate our new security group with network interfaces. Click the `Insert code` link to add the following comment to your Terraform file \n\n```markdown\n// Main network interface security group association\n```\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 100,
+        "description": "Place the cursor at the end of the '// Main network interface security group association' comment and press **ENTER** to have Copilot suggest the code block to use. Once it appears, press **TAB** then **ENTER** to accept the suggestion.\n\n\nPress `Next` to to get continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 200,
+        "description": "Finally let's define an Azure VM resource. Click the `Insert code` link to add the following comment ```markdown\n// Virtual Machine\n```\n\nPress `Next` to continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 200,
+        "description": "Place the cursor at the end of the '// Virtual Machine' comment and press **ENTER** to have Copilot suggest the code block to use. Once it appears, press **TAB** then **ENTER** to accept the suggestion.\n\n\nPress `Next` to get continue 👇"
+      },
+      {
+        "file": "main.tf",
+        "line": 200,
+        "description": "Although GitHub Copilot filters code suggestions to include security vulnerabilities, it still does not prevent all vulnerabilities. Therefore, you need to verify that the code is correct and secure, just as you would for human-written code. Finally, let's press the tfsec icon in the menu on the left side of VS Code. This is a tool that analyzes Terraform scripts to detect insecure code sections."
+      }
+    ],
+    "ref": "HEAD"
+  }
